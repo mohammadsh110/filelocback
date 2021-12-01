@@ -11,3 +11,4 @@ sqlparse==0.4.2
 urllib3==1.26.7
 view==0.1
 gunicorn
+django-heroku
