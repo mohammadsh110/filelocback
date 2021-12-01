@@ -7,7 +7,7 @@ import requests
 from shutil import copyfile
 
 global filePath
-defaultPath = 'C:/'
+defaultPath = './'
 
 
 
