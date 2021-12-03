@@ -20,6 +20,7 @@ from django.urls import path
 from testsite.view import uploadImage, location
 
 urlpatterns = [
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('uploadImage/', uploadImage, name='uploadImage'),
     path('location/', location, name='uploadImage'),
