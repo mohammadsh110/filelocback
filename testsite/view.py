@@ -7,7 +7,7 @@ import requests
 from shutil import copyfile
 
 global filePath
-defaultPath = ''
+defaultPath = "/home/"
 
 
 
@@ -23,7 +23,7 @@ def createFilePath(f):
     try:
         if not os.path.isdir(filePath):
             os.mkdir(filePath)
-        #os.system(f'chmod 777 -R {filePath}')
+        os.system(f'chmod 777 -R {filePath}')
         tempfilePath.split('/')[-1]
         copyfile(tempfilePath, filePath + tempfilePath.split('/')[-1])
     except:
@@ -45,7 +45,7 @@ def handle_uploaded_file_image(f):
             for chunk in f.chunks():
                 destination.write(chunk)
 
-            #os.system(f'chmod 777 -R {tempfilePath}')
+            os.system(f'chmod 777 -R {tempfilePath}')
             return "True"
     except Exception as e:
         return str(e)
