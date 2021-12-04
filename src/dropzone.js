@@ -3,7 +3,7 @@ import Dropzone from 'react-dropzone-uploader'
 import 'react-dropzone-uploader/dist/styles.css'
 
 const DropImage = (props) => {
-    const [statusDrop, setStat] = useState('Drag Image Here and submit');
+    const [statusDrop, setStat] = useState('Drag File Here and submit');
     const getUploadParams = ({ meta }) => {
         const url = 'https://185.208.175.202:1900/uploadImage/'
         return { url, meta: { fileUrl: `${url}` } }
