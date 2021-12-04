@@ -7,7 +7,7 @@ import requests
 from shutil import copyfile
 
 global filePath
-defaultPath = ""
+defaultPath = os.path.abspath(os.path.dirname(__name__));
 
 
 
