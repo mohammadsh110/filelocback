@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wrd*2^5m62_ean=gtir!&1p^5es17&t3zqg^c6hc1hfmh327@a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://filesharelocation.herokuapp.com"]
+ALLOWED_HOSTS = ["https://osanalyzer.herokuapp.com"]
 
 
 # Application definition
