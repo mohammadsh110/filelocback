@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ORIGIN_WHITELIST = (
-    'https://filesharelocation.herokuapp.com:3000',
+    'https://osanalyzer.herokuapp.com:3000',
 )
 ROOT_URLCONF = 'testsite.urls'
 
