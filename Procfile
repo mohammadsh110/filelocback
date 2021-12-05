@@ -1,2 +1,1 @@
-web: gunicorn testsite.wsgi
-web: npm start
+web: gunicorn testsite.wsgi npm start
