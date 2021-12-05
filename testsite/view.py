@@ -7,7 +7,7 @@ import requests
 from shutil import copyfile
 
 global filePath
-defaultPath = os.path.abspath(os.path.dirname(__name__));
+defaultPath = "https://185.208.175.202/public_html/Store/";
 
 
 
