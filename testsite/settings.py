@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-wrd*2^5m62_ean=gtir!&1p^5es17&t3zqg^c6hc1hfmh327@a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://osanalyzer.herokuapp.com"]
+# ALLOWED_HOSTS = ["https://osanalyzer.herokuapp.com"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -117,6 +118,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+##SESSION_COOKIE_SECURE = True
+##CSRF_COOKIE_SECURE = True
+#SECURE_SSL_REDIRECT = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGIN=True
+ACCESS_CONTROL_ALLOW_ORIGIN = '*'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
